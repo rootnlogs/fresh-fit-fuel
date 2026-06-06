@@ -1,8 +1,9 @@
 import { Suspense, lazy, useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowDown } from 'lucide-react'
+import { ArrowDown, MapPin } from 'lucide-react'
 import Logo, { WonMark } from './Logo.jsx'
 import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion.js'
+import { CONTACT } from '../config.js'
 import menu from '../../menu.json'
 
 // Lazy chunk so the ~three.js payload never blocks first paint.
@@ -71,6 +72,16 @@ export default function Hero({ onViewMenu }) {
         <p className="max-w-sm text-sm text-white/60">
           Healthy, high-protein meals — built fresh, ordered in seconds over WhatsApp.
         </p>
+
+        <a
+          href={CONTACT.mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pointer-events-auto inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/70 backdrop-blur-sm transition-colors hover:bg-white/10 hover:text-white"
+        >
+          <MapPin className="h-3.5 w-3.5 text-lime" aria-hidden="true" />
+          {CONTACT.addressShort}
+        </a>
 
         <motion.button
           type="button"

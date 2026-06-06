@@ -24,3 +24,21 @@ export const BRAND = {
     ink: '#1A1A1A',
   },
 }
+
+// Cafe contact details (from the WON Diet Cafe flyer). Single source of truth.
+export const CONTACT = {
+  phonePrimary: '919953907178', // WhatsApp + calls
+  phoneSecondary: '917987404499',
+  phoneDisplay: ['+91 99539 07178', '+91 79874 04499'],
+  addressLines: [
+    '5th Floor, Near Shanti Mukund Hospital',
+    'Above Hyundai Showroom, Dayanand Vihar',
+    'Anand Vihar, Delhi – 110092',
+  ],
+  addressShort: 'Dayanand Vihar, Anand Vihar, New Delhi',
+  mapsUrl:
+    'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent('WON Diet Cafe, Dayanand Vihar, Anand Vihar, Delhi 110092'),
+  wonTagline: 'Healthy Food · Healthy Life · Healthy Choice',
+  priceNote: 'Prices are subject to change based on fluctuations in product costs.',
+}
