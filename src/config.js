@@ -13,7 +13,7 @@ export const WHATSAPP_NUMBER_IS_PLACEHOLDER = /X/i.test(WHATSAPP_NUMBER)
 // Brand palette mirrored from tailwind.config.js so non-Tailwind contexts
 // (the 3D scene, canvas materials) can use the exact same colors.
 export const BRAND = {
-  name: 'Fresh Fit Fuel',
+  name: 'WON Diet Cafe',
   by: 'WON — Way of Nutrition',
   colors: {
     lime: '#8BC53F',
@@ -39,6 +39,10 @@ export const CONTACT = {
   mapsUrl:
     'https://www.google.com/maps/search/?api=1&query=' +
     encodeURIComponent('WON Diet Cafe, Dayanand Vihar, Anand Vihar, Delhi 110092'),
+  mapsEmbedUrl:
+    'https://www.google.com/maps?q=' +
+    encodeURIComponent('WON Diet Cafe, Dayanand Vihar, Anand Vihar, Delhi 110092') +
+    '&z=15&output=embed',
   wonTagline: 'Healthy Food · Healthy Life · Healthy Choice',
   priceNote: 'Prices are subject to change based on fluctuations in product costs.',
 }

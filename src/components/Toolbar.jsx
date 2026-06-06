@@ -6,7 +6,7 @@ export default function Toolbar({ query, onQuery, vegOnly, onVegToggle }) {
   return (
     <div className="flex items-center gap-3">
       {/* Compact brand mark — hidden on the smallest screens to save room */}
-      <a href="#top" className="hidden shrink-0 sm:block" aria-label="Fresh Fit Fuel — back to top">
+      <a href="#top" className="hidden shrink-0 sm:block" aria-label="WON Diet Cafe — back to top">
         <Logo size="sm" />
       </a>
 

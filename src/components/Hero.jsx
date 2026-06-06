@@ -1,7 +1,8 @@
 import { Suspense, lazy, useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowDown, MapPin } from 'lucide-react'
-import Logo, { WonMark } from './Logo.jsx'
+import Logo from './Logo.jsx'
+import MapCard from './MapCard.jsx'
 import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion.js'
 import { CONTACT } from '../config.js'
 import menu from '../../menu.json'
@@ -60,7 +61,10 @@ export default function Hero({ onViewMenu }) {
         transition={{ duration: 0.6, ease: 'easeOut' }}
       >
         <div className="pointer-events-auto">
-          <WonMark className="mb-4 justify-center" />
+          <span className="mb-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/60">
+            <span className="h-1.5 w-1.5 rounded-full bg-lime" aria-hidden="true" />
+            Way of Nutrition
+          </span>
         </div>
 
         <Logo size="lg" />
@@ -93,6 +97,8 @@ export default function Hero({ onViewMenu }) {
           View Menu &amp; Order
           <ArrowDown className="h-5 w-5" aria-hidden="true" />
         </motion.button>
+
+        <MapCard />
       </motion.div>
 
       {/* Scroll hint */}

@@ -79,7 +79,7 @@ export default function Footer() {
       {/* Copyright */}
       <div className="border-t border-white/5 px-5 py-5 text-center">
         <p className="text-xs text-white/30">
-          © {year} Fresh Fit Fuel by WON — Way of Nutrition. All rights reserved.
+          © {year} WON Diet Cafe — Way of Nutrition. All rights reserved.
         </p>
       </div>
     </footer>

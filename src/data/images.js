@@ -8,7 +8,7 @@
 //  fallback → null (and <ImageWithFallback> then shows a branded placeholder),
 //  so every card always shows something real and relevant.
 //
-//  TODO: replace with Fresh Fit Fuel's own product photos
+//  TODO: replace with WON Diet Cafe's own product photos
 //  Swap any value below for the cafe's real photo URL (or a file in /public).
 // ============================================================================
 

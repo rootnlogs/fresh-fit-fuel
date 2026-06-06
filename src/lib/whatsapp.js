@@ -15,7 +15,7 @@ const RUPEE = '₹'
 export function buildWhatsAppLink(items, total, count, customer = {}) {
   const lines = []
 
-  lines.push('*New Order — Fresh Fit Fuel*')
+  lines.push('*New Order — WON Diet Cafe*')
   lines.push('') // blank line
 
   items.forEach((item, idx) => {
@@ -38,7 +38,7 @@ export function buildWhatsAppLink(items, total, count, customer = {}) {
   }
 
   lines.push('')
-  lines.push('Sent via Fresh Fit Fuel online menu')
+  lines.push('Sent via WON Diet Cafe online menu')
 
   const message = lines.join('\n')
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
