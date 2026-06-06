@@ -1,0 +1,168 @@
+{
+  "brand": {
+    "name": "Fresh Fit Fuel",
+    "by": "WON — Way of Nutrition",
+    "currency": "INR",
+    "currencySymbol": "₹",
+    "tagline": "Eat clean. Train hard. Fuel right."
+  },
+  "macroLegend": { "P": "Protein (g)", "C": "Carbs (g)", "F": "Fat (g)" },
+  "categories": [
+    {
+      "id": "veg-sandwich",
+      "name": "Veg Sandwich",
+      "items": [
+        { "id": "vs-peanut-butter", "name": "Peanut Butter Sandwich", "price": 150, "veg": true, "macros": { "p": 6, "c": 27, "f": 1 } },
+        { "id": "vs-classic-veggie", "name": "Classic Veggie Sandwich", "price": 150, "veg": true, "macros": { "p": 5, "c": 17, "f": 6 } },
+        { "id": "vs-veg-grilled", "name": "Veg Grilled Sandwich", "price": 150, "veg": true, "macros": { "p": 5, "c": 17, "f": 8 } },
+        { "id": "vs-grilled-corn", "name": "Grilled Corn Sandwich", "price": 150, "veg": true, "macros": { "p": 8, "c": 37, "f": 12 } },
+        { "id": "vs-bell-pepper", "name": "Bell Pepper Grilled Sandwich", "price": 170, "veg": true, "macros": { "p": 4, "c": 17, "f": 1 } },
+        { "id": "vs-mushroom", "name": "Mushroom Sandwich", "price": 170, "veg": true, "macros": { "p": 4, "c": 24, "f": 1 } },
+        { "id": "vs-broccoli", "name": "Broccoli Sandwich", "price": 170, "veg": true, "macros": { "p": 4, "c": 18, "f": 1 } },
+        { "id": "vs-cottage-cheese", "name": "Grilled Cottage Cheese Sandwich", "price": 220, "veg": true, "macros": { "p": 11, "c": 16, "f": 23 } },
+        { "id": "vs-tofu", "name": "Grilled Tofu Sandwich", "price": 220, "veg": true, "macros": { "p": 10, "c": 16, "f": 5 } },
+        { "id": "vs-paneer-tikka", "name": "Paneer Tikka Sandwich", "price": 220, "veg": true, "macros": { "p": 11, "c": 15, "f": 24 } },
+        { "id": "vs-clubhouse-veg", "name": "Catalyst Special Clubhouse Veg", "price": 270, "veg": true, "macros": { "p": 17, "c": 24, "f": 24 } },
+        { "id": "vs-falafel", "name": "Falafel Sandwich", "price": 220, "veg": true, "macros": { "p": 16, "c": 24, "f": 24 } }
+      ]
+    },
+    {
+      "id": "nonveg-sandwich",
+      "name": "Non Veg Sandwich",
+      "items": [
+        { "id": "ns-egg-white", "name": "Egg White Sandwich", "price": 220, "veg": false, "macros": { "p": 15, "c": 23, "f": 19 } },
+        { "id": "ns-chicken-tikka", "name": "Chicken Tikka Sandwich", "price": 230, "veg": false, "macros": { "p": 24, "c": 14, "f": 5 } },
+        { "id": "ns-grilled-chicken", "name": "Grilled Chicken Sandwich", "price": 230, "veg": false, "macros": { "p": 24, "c": 14, "f": 5 } },
+        { "id": "ns-chicken-kebab", "name": "Chicken Kebab Sandwich", "price": 230, "veg": false, "macros": { "p": 24, "c": 15, "f": 7 } },
+        { "id": "ns-egg-chicken", "name": "Egg Chicken Sandwich", "price": 270, "veg": false, "macros": { "p": 30, "c": 14, "f": 11 } },
+        { "id": "ns-clubhouse-chicken", "name": "Catalyst Special Clubhouse Chicken", "price": 270, "veg": false, "macros": { "p": 36, "c": 27, "f": 1 } },
+        { "id": "ns-chicken-mushroom", "name": "Chicken Mushroom Sandwich", "price": 230, "veg": false, "macros": { "p": 25, "c": 17, "f": 5 } },
+        { "id": "ns-chicken-sweetcorn", "name": "Chicken Sweetcorn Sandwich", "price": 230, "veg": false, "macros": { "p": 29, "c": 24, "f": 4 } },
+        { "id": "ns-chicken-broccoli", "name": "Chicken Broccoli Sandwich", "price": 230, "veg": false, "macros": { "p": 25, "c": 18, "f": 5 } },
+        { "id": "ns-grilled-fish", "name": "Grilled Fish Sandwich", "price": 270, "veg": false, "macros": { "p": 42, "c": 14, "f": 4 } },
+        { "id": "ns-clubhouse-fish", "name": "Catalyst Special Clubhouse Fish", "price": 270, "veg": false, "macros": { "p": 45, "c": 16, "f": 6 } }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Salads",
+      "items": [
+        { "id": "sl-sprouts-war", "name": "Sprouts War Salad", "price": 290, "veg": true, "macros": { "p": 14, "c": 13, "f": 8 } },
+        { "id": "sl-veg-high-fiber", "name": "Veg High Fiber Salad", "price": 290, "veg": true, "macros": { "p": 6, "c": 24, "f": 0 } },
+        { "id": "sl-masala-tofu", "name": "Grilled Masala Tofu Salad", "price": 290, "veg": true, "macros": { "p": 18, "c": 14, "f": 8 } },
+        { "id": "sl-cottage-cheese", "name": "Grilled Cottage Cheese Salad", "price": 290, "veg": true, "macros": { "p": 30, "c": 18, "f": 36 } },
+        { "id": "sl-paneer-tikka", "name": "Paneer Tikka Salad", "price": 290, "veg": true, "macros": { "p": 30, "c": 18, "f": 37 } },
+        { "id": "sl-falafel", "name": "Falafel Salad", "price": 290, "veg": true, "macros": { "p": 30, "c": 18, "f": 35 } },
+        { "id": "sl-steam-egg-white", "name": "Steam Egg White Salad", "price": 290, "veg": false, "macros": { "p": 28, "c": 13, "f": 0 } },
+        { "id": "sl-roasted-chicken", "name": "Roasted Chicken Salad", "price": 310, "veg": false, "macros": { "p": 46, "c": 15, "f": 12 } },
+        { "id": "sl-steam-chicken-lean", "name": "Steam Chicken Salad For Lean", "price": 310, "veg": false, "macros": { "p": 46, "c": 13, "f": 4 } },
+        { "id": "sl-grilled-chicken", "name": "Grilled Chicken Salad", "price": 310, "veg": false, "macros": { "p": 46, "c": 14, "f": 5 } },
+        { "id": "sl-chicken-tikka", "name": "Chicken Tikka Salad", "price": 310, "veg": false, "macros": { "p": 46, "c": 14, "f": 5 } },
+        { "id": "sl-chicken-kebab", "name": "Chicken Kebab Salad", "price": 310, "veg": false, "macros": { "p": 35, "c": 19, "f": 9 } },
+        { "id": "sl-grilled-fish", "name": "Grilled Fish Salad", "price": 350, "veg": false, "macros": { "p": 32, "c": 22, "f": 14 } },
+        { "id": "sl-steam-fish", "name": "Steam Fish Salad", "price": 350, "veg": false, "macros": { "p": 30, "c": 20, "f": 12 } }
+      ]
+    },
+    {
+      "id": "rice-bowls",
+      "name": "Rice Bowls",
+      "items": [
+        { "id": "rb-veg", "name": "Veg Rice Bowl", "price": 200, "veg": true, "macros": { "p": 8, "c": 55, "f": 2 } },
+        { "id": "rb-tofu", "name": "Grilled Tofu Rice Bowl", "price": 290, "veg": true, "macros": { "p": 21, "c": 50, "f": 11 } },
+        { "id": "rb-cottage-cheese", "name": "Cottage Cheese Rice Bowl", "price": 290, "veg": true, "macros": { "p": 32, "c": 54, "f": 35 } },
+        { "id": "rb-paneer-tikka", "name": "Paneer Tikka Rice Bowl", "price": 290, "veg": true, "macros": { "p": 32, "c": 55, "f": 37 } },
+        { "id": "rb-steam-chicken", "name": "Steam Chicken Rice Bowl", "price": 320, "veg": false, "macros": { "p": 50, "c": 46, "f": 7 } },
+        { "id": "rb-grilled-chicken", "name": "Grilled Chicken Rice Bowl", "price": 320, "veg": false, "macros": { "p": 50, "c": 46, "f": 8 } },
+        { "id": "rb-chicken-tikka", "name": "Chicken Tikka Rice Bowl", "price": 320, "veg": false, "macros": { "p": 50, "c": 45, "f": 7 } },
+        { "id": "rb-chicken-kebab", "name": "Chicken Kebab Rice Bowl", "price": 320, "veg": false, "macros": { "p": 50, "c": 42, "f": 5 } },
+        { "id": "rb-egg-chicken", "name": "Egg Chicken Rice Bowl", "price": 330, "veg": false, "macros": { "p": 56, "c": 44, "f": 12 } }
+      ]
+    },
+    {
+      "id": "gravy",
+      "name": "Gravy (Add-on)",
+      "items": [
+        { "id": "gr-mushroom", "name": "Mushroom Gravy", "price": 99, "veg": true, "macros": null },
+        { "id": "gr-pesto", "name": "Pesto Gravy", "price": 99, "veg": true, "macros": null },
+        { "id": "gr-makhani", "name": "Makhani Gravy", "price": 99, "veg": true, "macros": null },
+        { "id": "gr-peri-peri", "name": "Peri Peri Gravy", "price": 99, "veg": true, "macros": null }
+      ]
+    },
+    {
+      "id": "power-mix",
+      "name": "Power Mix",
+      "items": [
+        { "id": "pm-steamed-chicken", "name": "Steamed Chicken Breast 200gm", "price": 300, "veg": false, "macros": { "p": 65, "c": 0, "f": 3 } },
+        { "id": "pm-roasted-chicken", "name": "Roasted Chicken Breast 200gm", "price": 300, "veg": false, "macros": { "p": 64, "c": 3, "f": 8 } },
+        { "id": "pm-grilled-chicken", "name": "Grilled Chicken Breast 200gm", "price": 300, "veg": false, "macros": { "p": 64, "c": 2, "f": 8 } },
+        { "id": "pm-chicken-tikka", "name": "Chicken Tikka 200gm", "price": 300, "veg": false, "macros": { "p": 62, "c": 2, "f": 9 } },
+        { "id": "pm-chicken-kebab", "name": "Chicken Kebab 200gm", "price": 300, "veg": false, "macros": { "p": 62, "c": 2, "f": 8 } },
+        { "id": "pm-mixveg-stuffed", "name": "Mix Vegetable Stuffed Chicken Breast", "price": 350, "veg": false, "macros": { "p": 63, "c": 2, "f": 8 } },
+        { "id": "pm-mushroom-stuffed", "name": "Mushroom Stuffed Chicken Breast", "price": 350, "veg": false, "macros": { "p": 68, "c": 8, "f": 8 } },
+        { "id": "pm-bellpepper-stuffed", "name": "Bell Pepper Stuffed Chicken Breast", "price": 350, "veg": false, "macros": { "p": 63, "c": 8, "f": 8 } },
+        { "id": "pm-broccoli-stuffed", "name": "Broccoli Stuffed Chicken Breast", "price": 350, "veg": false, "macros": { "p": 63, "c": 8, "f": 8 } },
+        { "id": "pm-corn-stuffed", "name": "Corn Stuffed Chicken Breast", "price": 350, "veg": false, "macros": { "p": 63, "c": 8, "f": 8 } },
+        { "id": "pm-grilled-paneer", "name": "Grilled Paneer 200gm", "price": 250, "veg": true, "macros": null },
+        { "id": "pm-grilled-tofu", "name": "Grilled Tofu 200gm", "price": 250, "veg": true, "macros": null },
+        { "id": "pm-grilled-fish", "name": "Grilled Fish 200gm", "price": 250, "veg": false, "macros": null },
+        { "id": "pm-steamed-fish", "name": "Steamed Fish 200gm", "price": 250, "veg": false, "macros": null }
+      ]
+    },
+    {
+      "id": "wraps",
+      "name": "Wraps",
+      "items": [
+        { "id": "wr-veg-grilled", "name": "Veg Grilled Wrap", "price": 200, "veg": true, "macros": { "p": 7, "c": 32, "f": 4 } },
+        { "id": "wr-tofu", "name": "Grilled Tofu Wrap", "price": 200, "veg": true, "macros": { "p": 14, "c": 20, "f": 9 } },
+        { "id": "wr-cottage-cheese", "name": "Grilled Cottage Cheese Wrap", "price": 200, "veg": true, "macros": { "p": 22, "c": 22, "f": 28 } },
+        { "id": "wr-paneer-tikka", "name": "Paneer Tikka Wrap", "price": 250, "veg": true, "macros": { "p": 22, "c": 22, "f": 29 } },
+        { "id": "wr-falafel", "name": "Falafel Wrap", "price": 250, "veg": true, "macros": { "p": 22, "c": 20, "f": 25 } },
+        { "id": "wr-steam-chicken", "name": "Steam Chicken Wrap", "price": 270, "veg": false, "macros": { "p": 35, "c": 19, "f": 8 } },
+        { "id": "wr-grilled-chicken", "name": "Grilled Chicken Wrap", "price": 270, "veg": false, "macros": { "p": 35, "c": 19, "f": 9 } },
+        { "id": "wr-chicken-tikka", "name": "Chicken Tikka Wrap", "price": 270, "veg": false, "macros": { "p": 35, "c": 20, "f": 10 } },
+        { "id": "wr-chicken-kebab", "name": "Chicken Kebab Wrap", "price": 270, "veg": false, "macros": { "p": 35, "c": 19, "f": 14 } },
+        { "id": "wr-egg-chicken", "name": "Egg Chicken Wrap", "price": 270, "veg": false, "macros": { "p": 41, "c": 21, "f": 7 } }
+      ]
+    },
+    {
+      "id": "subs",
+      "name": "Subs",
+      "items": [
+        { "id": "sb-veg-grilled", "name": "Veg Grilled Sub", "price": 200, "veg": true, "macros": { "p": 7, "c": 25, "f": 9 } },
+        { "id": "sb-tofu", "name": "Grilled Tofu Sub", "price": 250, "veg": true, "macros": { "p": 14, "c": 13, "f": 8 } },
+        { "id": "sb-cottage-cheese", "name": "Grilled Cottage Cheese Sub", "price": 250, "veg": true, "macros": { "p": 22, "c": 15, "f": 27 } },
+        { "id": "sb-paneer-tikka", "name": "Paneer Tikka Sub", "price": 250, "veg": true, "macros": { "p": 23, "c": 15, "f": 27 } },
+        { "id": "sb-falafel", "name": "Falafel Sub", "price": 250, "veg": true, "macros": { "p": 24, "c": 13, "f": 25 } },
+        { "id": "sb-grilled-chicken", "name": "Grilled Chicken Sub", "price": 270, "veg": false, "macros": { "p": 35, "c": 12, "f": 9 } },
+        { "id": "sb-chicken-tikka", "name": "Chicken Tikka Sub", "price": 270, "veg": false, "macros": { "p": 35, "c": 13, "f": 7 } },
+        { "id": "sb-chicken-kebab", "name": "Chicken Kebab Sub", "price": 270, "veg": false, "macros": { "p": 34, "c": 14, "f": 8 } },
+        { "id": "sb-egg-chicken", "name": "Egg Chicken Sub", "price": 300, "veg": false, "macros": { "p": 41, "c": 12, "f": 12 } },
+        { "id": "sb-grilled-fish", "name": "Grilled Fish Sub", "price": 320, "veg": false, "macros": { "p": 31, "c": 13, "f": 6 } }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "items": [
+        { "id": "bv-cold-coffee", "name": "Cold Coffee", "price": 150, "veg": true, "macros": null },
+        { "id": "bv-masala-lemonade", "name": "Masala Lemonade", "price": 150, "veg": true, "macros": null },
+        { "id": "bv-sweet-soda-lemonade", "name": "Sweet Soda Lemonade", "price": 150, "veg": true, "macros": null },
+        { "id": "bv-sparkling-iced-tea", "name": "Sparkling Soda Iced Tea", "price": 150, "veg": true, "macros": null },
+        { "id": "bv-blue-skyfall", "name": "Blue SkyFall", "price": 150, "veg": true, "macros": null },
+        { "id": "bv-green-apple-soda", "name": "Green Apple Flavoured Soda", "price": 150, "veg": true, "macros": null },
+        { "id": "bv-chocolate-shake", "name": "Chocolate Shake", "price": 200, "veg": true, "macros": null },
+        { "id": "bv-kiwi-shake", "name": "Kiwi Shake", "price": 200, "veg": true, "macros": null },
+        { "id": "bv-pineapple-shake", "name": "Pineapple Shake", "price": 200, "veg": true, "macros": null },
+        { "id": "bv-strawberry-shake", "name": "Strawberry Shake", "price": 200, "veg": true, "macros": null },
+        { "id": "bv-virgin-mojito", "name": "Virgin Mojito", "price": 170, "veg": true, "macros": null },
+        { "id": "bv-orange-mojito", "name": "Orange Mojito", "price": 170, "veg": true, "macros": null },
+        { "id": "bv-green-juice", "name": "Green Juice", "price": 150, "veg": true, "macros": null },
+        { "id": "bv-energy-cold-coffee", "name": "Energy Booster Cold Coffee", "price": 190, "veg": true, "macros": null },
+        { "id": "bv-cold-coffee-sugarfree", "name": "Cold Coffee Sugar Free", "price": 190, "veg": true, "macros": null },
+        { "id": "bv-choco-peanut-shake", "name": "Energy Booster Choco Peanut Shake", "price": 200, "veg": true, "macros": null },
+        { "id": "bv-protein-shake", "name": "Protein Shake", "price": 200, "veg": true, "macros": null },
+        { "id": "bv-oreo-shake", "name": "Oreo Shake", "price": 200, "veg": true, "macros": null }
+      ]
+    }
+  ]
+}

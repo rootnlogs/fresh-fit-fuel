@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Respect reduced motion at the platform level too */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+
+  body {
+    @apply bg-navy-900 text-white font-body antialiased;
+    /* Subtle grain/noise + doodle echo via layered radial gradients */
+    background-image:
+      radial-gradient(circle at 15% 20%, rgba(139, 197, 63, 0.08), transparent 40%),
+      radial-gradient(circle at 85% 10%, rgba(242, 228, 12, 0.06), transparent 35%),
+      radial-gradient(circle at 50% 90%, rgba(139, 197, 63, 0.05), transparent 45%);
+    background-attachment: fixed;
+  }
+
+  /* Visible, branded focus states for keyboard users */
+  :focus-visible {
+    @apply outline-none ring-2 ring-sun ring-offset-2 ring-offset-navy-900;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  .glass-strong {
+    @apply bg-navy-800/80 backdrop-blur-xl border border-white/10;
+  }
+  /* Hide scrollbar but keep scrolling (category pills, cart) */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Fine, repeating noise texture overlay used by the hero */
+.noise-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+}
