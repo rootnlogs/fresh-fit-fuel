@@ -9,15 +9,21 @@ import { useCart } from '../context/CartContext.jsx'
 import { getImage } from '../data/images.js'
 
 const CATEGORY_EMOJI = {
-  'veg-sandwich': '🥪',
-  'nonveg-sandwich': '🥪',
-  salads: '🥗',
+  'boiled-eggs': '🥚',
+  omelettes: '🍳',
+  oats: '🥣',
+  pasta: '🍝',
   'rice-bowls': '🍚',
-  gravy: '🍛',
   'power-mix': '🍗',
   wraps: '🌯',
+  'veg-sandwich': '🥪',
+  'nonveg-sandwich': '🥪',
   subs: '🥖',
-  beverages: '🥤',
+  salads: '🥗',
+  drinks: '🥤',
+  gravy: '🍛',
+  kebab: '🍢',
+  extras: '🍞',
 }
 
 export default function MenuCard({ item, categoryId, reducedMotion, onAdded }) {
